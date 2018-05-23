@@ -58,13 +58,15 @@ var unwantedItemIndex = function searchForItemIndex(item) {
   return getcart().indexOf(item);
 }
 
-function searchCartForItemByIndex(item) {
+var itemToRemove = function searchCartForItemByIndex(item) {
   if (unwantedItemIndex !== -1) {
-    return getCart()[]
+    return getCart()[unwantedItemIndex]
+  } else {
+    return `
   }
 }
 
-function removeFromCart(itemToRemove) {
+function removeFromCart(itemName) {
   
 }
  
