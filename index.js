@@ -54,18 +54,8 @@ function total() {
   } return cartTotal
 }
 
-var indexOfItemToRemove = function findIndex(item) {
-  return getCart().indexOf(item)
-}
-
-// var itemToRemoveByIndex = function {
-// getCart()[]
-
-
-
 function removeFromCart(itemToRemove) {
   for (let i = 0; i < getCart().length; i++) {
-    console.log(getCart()[i].itemName)
     if (getCart()[i].itemName === itemToRemove) {
       updatedCart = getCart().splice(i, 1);
       return updatedCart
