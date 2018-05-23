@@ -60,14 +60,16 @@ var unwantedItemIndex = function searchForItemIndex(item) {
 
 var itemToRemove = function searchCartForItemByIndex(item) {
   if (unwantedItemIndex !== -1) {
-    return getCart()[unwantedItemIndex]
+    return getCart()[unwantedItemIndex].itemName
   } else {
-    return `
+    return `That item is not in your cart.`
   }
 }
 
 function removeFromCart(itemName) {
-  
+  if (itemToRemove === itemName) {
+    getCart().
+  }
 }
  
 
