@@ -54,9 +54,9 @@ function total() {
   } return cartTotal
 }
 
-var itemIndex = function searchForItemIndex(item) {
+var indexOfItemToRemove = function searchForItemIndex(item) {
   getcart().indexOf(item);
-  
+  return indexOfItemToRemove
 }
 
 var function searchCartForItem(item) {
