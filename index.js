@@ -69,11 +69,11 @@ function removeFromCart(itemToRemove) {
     if (getCart()[i].itemName === itemToRemove) {
       updatedCart = getCart().splice(i, 1);
       return updatedCart
-    } else {
-      return `That item is not in your cart.`
     }
   }
+  return `That item is not in your cart.`
 }
+
  
     addToCart("vanilla");
     addToCart("watermelon");
