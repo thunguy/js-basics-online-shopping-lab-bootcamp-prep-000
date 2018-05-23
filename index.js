@@ -56,7 +56,7 @@ function total() {
 
 var itemIndex = function searchForItemIndex(item) {
   getcart().indexOf(item);
-  return itemIndex
+  
 }
 
 var function searchCartForItem(item) {
