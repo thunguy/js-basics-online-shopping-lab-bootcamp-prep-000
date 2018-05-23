@@ -59,7 +59,7 @@ var itemIndex = function searchForItemIndex(item) {
   return itemIndex
 }
 
-function searchCartForItem(item) {
+var function searchCartForItem(item) {
   
 }
 
