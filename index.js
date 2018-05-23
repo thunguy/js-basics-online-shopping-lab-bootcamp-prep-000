@@ -68,11 +68,12 @@ var itemToRemove = function searchCartForItemByIndex(item) {
 
 function removeFromCart(itemName) {
   if (itemToRemove === itemName) {
-    getCart().
+    getCart().splice(unwantedItemIndex, 1)
+  } else {
+    return `That item is not in your cart.`
   }
 }
  
-
 function placeOrder(cardNumber) {
   if (!cardNumber) {
     
