@@ -63,14 +63,6 @@ function removeFromCart(itemToRemove) {
   }
   return `That item is not in your cart.`
 }
-
- 
-    addToCart("vanilla");
-    addToCart("watermelon");
-    addToCart("yams");
-console.log(cart)
-    console.log(removeFromCart("watermelon"))
-console.log(cart)
  
 function placeOrder(cardNumber) {
   if (!cardNumber) {
