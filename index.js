@@ -54,19 +54,11 @@ function total() {
   } return cartTotal
 }
 
-var unwantedItemIndex = function searchForItemIndex(item) {
-  return getcart().indexOf(item);
-}
-
-var itemToRemove = function searchCartForItemByIndex(item) {
-  if (unwantedItemIndex !== -1) {
-    return getCart()[unwantedItemIndex].itemName
-  }
-}
-
 function removeFromCart(itemToRemove) {
   for (let i = 0; i < getcart().length; i++) {
-    if (getcart([i]).itemName === itemToRemove)
+    if (getcart()[i].itemName === itemToRemove) {
+      
+    }
   }
  
 function placeOrder(cardNumber) {
