@@ -58,7 +58,9 @@ var indexOfItemToRemove = function findIndex(item) {
   return getCart().indexOf(item)
 }
 
-var itemToRemoveByIndex = function 
+var itemToRemoveByIndex = function {
+  getCart()[]
+}
 
 
 function removeFromCart(itemToRemove) {
