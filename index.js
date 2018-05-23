@@ -55,13 +55,14 @@ function total() {
 }
 
 var indexOfItemToRemove = function findIndex(item) {
-  if (getCart().indexOf(item) !== -1) {
-    return 
-  }
+  return getCart().indexOf(item)
 }
 
+var itemToRemoveByIndex = function 
+
+
 function removeFromCart(itemToRemove) {
-  
+  if 
   
   for (let i = 0; i < getCart().length; i++) {
     if (getCart()[i].itemName === itemToRemove) {
