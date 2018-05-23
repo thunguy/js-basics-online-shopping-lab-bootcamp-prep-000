@@ -64,8 +64,6 @@ var itemToRemoveByIndex = function {
 
 
 function removeFromCart(itemToRemove) {
-  if 
-  
   for (let i = 0; i < getCart().length; i++) {
     if (getCart()[i].itemName === itemToRemove) {
       i = getCart().indexOf(itemToRemove);
