@@ -65,6 +65,7 @@ var indexOfItemToRemove = function findIndex(item) {
 
 function removeFromCart(itemToRemove) {
   for (let i = 0; i < getCart().length; i++) {
+    console.log(getCart()[i].itemName)
     if (getCart()[i].itemName === itemToRemove) {
       updatedCart = getCart().splice(i, 1);
       return updatedCart
