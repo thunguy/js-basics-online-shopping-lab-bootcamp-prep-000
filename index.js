@@ -54,14 +54,14 @@ function total() {
   } return cartTotal
 }
 
-function searchForItemIndex(item) {
+var unwantedItemIndex = function searchForItemIndex(item) {
   getcart().indexOf(item);
-  
-  
 }
 
-var function searchCartForItem(item) {
-  
+function searchCartForItemByIndex(item) {
+  if (unwantedItemIndex !== -1) {
+    return 
+  }
 }
 
 function removeFromCart(itemToRemove) {
