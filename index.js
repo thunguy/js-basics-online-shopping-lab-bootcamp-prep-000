@@ -55,7 +55,9 @@ function total() {
 }
 
 var indexOfItemToRemove = function findIndex(item) {
-  getCart().indexOf(itemToRemove)
+  if (getCart().indexOf(item) !== -1) {
+    return 
+  }
 }
 
 function removeFromCart(itemToRemove) {
