@@ -55,12 +55,12 @@ function total() {
 }
 
 var unwantedItemIndex = function searchForItemIndex(item) {
-  getcart().indexOf(item);
+  return getcart().indexOf(item);
 }
 
 function searchCartForItemByIndex(item) {
   if (unwantedItemIndex !== -1) {
-    return 
+    return getCart()[]
   }
 }
 
