@@ -54,6 +54,11 @@ function total() {
   } return cartTotal
 }
 
+var itemIndex = function searchForItemIndex(item) {
+  getcart().indexOf(item);
+  return itemIndex
+}
+
 function searchCartForItem(item) {
   
 }
